@@ -10,6 +10,8 @@ const atkNameInput2 = document.querySelector("#atk2-name").value;
 const atkDmgInput2 = document.querySelector("#atk2-dmg").value;
 const atkDescInput2 = document.querySelector("#atk2-desc").value;
 
+const card = document.querySelector("#card");
+
 const cardName = document.querySelector(".pkm-name");
 const cardHp = document.querySelector("#hp");
 const cardImg = document.querySelector("#card-img");
@@ -21,6 +23,8 @@ const cardAtkDesc1 = document.querySelector("#desc1");
 const cardAtkName2 = document.querySelector("#atk-name-2");
 const cardAtkDmg2 = document.querySelector("#dmg-2");
 const cardAtkDesc2 = document.querySelector("#desc2");
+
+const typeSelect = document.querySelector("#type-select");
 
 const submitBtn = document.querySelector("#submit");
 const form = document.querySelector(".custom-param");
@@ -39,6 +43,26 @@ function changeCard() {
     cardAtkName2.textContent = atkNameInput2;
     cardAtkDmg2.textContent = atkDmgInput2;
     cardAtkDesc2.textContent = atkDescInput2;
+
+    if(typeSelect.value === "Fire") {
+        card.style.backgroundImage = "url('assets/img/fire-card-template.jpg')";
+    }
+
+    else if(typeSelect.value === "Water") {
+        card.style.backgroundImage = "url('assets/img/water-card-template.png')";
+    }
+
+    else if(typeSelect.value === "Grass") {
+        card.style.backgroundImage = "url('assets/img/earth-card-template.jpg')";
+    }
+
+    else if(typeSelect.value === "Psy") {
+        card.style.backgroundImage = "url('assets/img/psy-card-template.jpg')";
+    }
+
+    else if(typeSelect.value === "Electrical") {
+        card.style.backgroundImage = "url('assets/img/fire-card-template.jpg')";
+    }
 
 }
 

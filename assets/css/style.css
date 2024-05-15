@@ -48,6 +48,15 @@ input {
     height: 5vh;
 }
 
+select {
+    width: 25%;
+    height: 5%;
+    margin-bottom: 15px;
+
+    font-size: x-large;
+    font-weight: 700;
+}
+
 /* card */
 
 .card-container {
