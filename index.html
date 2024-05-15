@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <title>Burger Maker</title>
+
+</head>
+
+<body>
+
+    <main>
+
+        <div class="card-container">
+
+            <div id="card">
+
+                <div class="card-header">
+                    <p class="pkm-name">Google</p>
+                    <p class="pkm-hp">HP<span id="hp">100</span></p>
+                </div>
+
+                <div class="card-image">
+                    <img src="assets/img/test.png" alt="pokemon image" id="card-img">
+                </div>
+
+                <div class="card-main">
+
+                    <div class="atk-name-hp-1" id="atk1">
+                        <p id="atk-name-1">Shadow-Ban</p>
+                        <p id="dmg-1">50</p>
+                    </div>
+
+                    <p class="desc" id="desc1">lancer une piece, si c'est face, le pokemon adverse passe son tour</p>
+
+
+                    <div class="atk-name-hp-2" id="atk2">
+                        <p id="atk-name-2">Rachat</p>
+                        <p id="dmg-2"></p>
+                    </div>
+
+                    <p class="desc" id="desc2">Echanger un de vos pokemon contre l'un de ceux de l'adversaire</p>
+
+
+                </div>
+
+                <div class="card-footer">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <form class="custom-param">
+
+            <div class="name-hp">
+                <input type="text" id="name-input" placeholder="Name of your pokemon" required>
+                <input type="number" id="hp-input" placeholder="HP of your pokemon" max="999" required>
+            </div>
+
+            <input type="text" id="card-img-select" placeholder="link to your image" required>
+
+            <h2>Attack 1</h2>
+
+            <div class="atk-input">
+                <input type="text" id="atk1-name" placeholder="Attack Name" required>
+                <input type="number" id="atk1-dmg" placeholder="Attack Damage">
+                <input type="text" id="atk1-desc" placeholder="Attack Description" required>
+            </div>
+
+            <h2>Attack 2</h2>
+
+            <div class="atk-input">
+                <input type="text" id="atk2-name" placeholder="Attack Name" required>
+                <input type="number" id="atk2-dmg" placeholder="Attack Damage">
+                <input type="text" id="atk2-desc" placeholder="Attack Description" required>
+            </div>
+
+            <input type="submit" id="submit" value="Create Card">
+        </form>
+
+    </main>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

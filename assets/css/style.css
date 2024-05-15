@@ -1,0 +1,151 @@
+body {
+    height: 100vh;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.custom-param {
+    width: 70%;
+    height: 100%;
+    background-color: grey;
+    border-left: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+input {
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.name-hp {
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.name-hp input {
+    width: 25vw;
+    height: 5vh;
+}
+
+#card-img-select {
+    width: 35vw;
+    height: 5vh;
+}
+
+/* card */
+
+.card-container {
+    min-width: 500px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    height: 590px;
+    width: 420px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(../img/fire-card-template.jpg);
+    background-repeat: no-repeat;
+}
+
+#card img {
+    position: relative;
+    left: 38px;
+    bottom: 1px;
+
+    height: 227px;
+    width: 344px;
+}
+
+.card-header {
+    height: 11%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-image {
+    height: 38%;
+    width: 100%;
+}
+
+.card-main {
+    height: 35%;
+    width: 100%;
+}
+
+.card-footer {
+    height: 16%;
+    width: 100%;
+}
+
+.pkm-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.pkm-hp {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-right: 56px;
+}
+
+#hp {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.atk-name-hp-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.atk-name-hp-2 p {
+    margin: 25px 35px 5px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.atk-name-hp-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.atk-name-hp-1 p {
+    margin: 50px 35px 5px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.desc {
+    margin: 0px 35px;
+    font-size: 14px;
+}
