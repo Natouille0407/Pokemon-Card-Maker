@@ -81,11 +81,11 @@ select {
 
 #card img {
     position: relative;
-    left: 38px;
-    bottom: 1px;
+    left: 37px;
+    bottom: 3px;
 
-    height: 227px;
-    width: 344px;
+    height: 230px;
+    width: 347px;
 }
 
 .card-header {

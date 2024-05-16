@@ -46,22 +46,57 @@ function changeCard() {
 
     if(typeSelect.value === "Fire") {
         card.style.backgroundImage = "url('assets/img/fire-card-template.jpg')";
+        card.style.color = "black";
     }
 
     else if(typeSelect.value === "Water") {
         card.style.backgroundImage = "url('assets/img/water-card-template.png')";
+        card.style.color = "black";
     }
 
     else if(typeSelect.value === "Grass") {
-        card.style.backgroundImage = "url('assets/img/earth-card-template.jpg')";
+        card.style.backgroundImage = "url('assets/img/earth-card-template.png')";
+        card.style.color = "black";
     }
 
     else if(typeSelect.value === "Psy") {
-        card.style.backgroundImage = "url('assets/img/psy-card-template.jpg')";
+        card.style.backgroundImage = "url('assets/img/psy-card-template.png')";
+        card.style.color = "black";
     }
 
     else if(typeSelect.value === "Electrical") {
-        card.style.backgroundImage = "url('assets/img/fire-card-template.jpg')";
+        card.style.backgroundImage = "url('assets/img/electrical-card-template.png')";
+        card.style.color = "black";
+    }
+
+    else if(typeSelect.value === "Rock") {
+        card.style.backgroundImage = "url('assets/img/rock-card-template.png')";
+        card.style.color = "black";
+    }
+
+    else if(typeSelect.value === "Fairy") {
+        card.style.backgroundImage = "url('assets/img/fairy-card-template.png')";
+        card.style.color = "black";
+    }
+
+    else if(typeSelect.value === "Dark") {
+        card.style.backgroundImage = "url('assets/img/dark-card-template.png')";
+        card.style.color = "white";
+    }
+
+    else if(typeSelect.value === "Steel") {
+        card.style.backgroundImage = "url('assets/img/steel-card-template.jpg')";
+        card.style.color = "black";
+    }
+
+    else if(typeSelect.value === "Dragon") {
+        card.style.backgroundImage = "url('assets/img/dragon-card-template.png')";
+        card.style.color = "white";
+    }
+
+    else if(typeSelect.value === "Normal") {
+        card.style.backgroundImage = "url('assets/img/normal-card-template.png')";
+        card.style.color = "black";
     }
 
 }
