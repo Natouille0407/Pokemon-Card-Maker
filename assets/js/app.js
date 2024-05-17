@@ -10,6 +10,9 @@ const atkNameInput2 = document.querySelector("#atk2-name").value;
 const atkDmgInput2 = document.querySelector("#atk2-dmg").value;
 const atkDescInput2 = document.querySelector("#atk2-desc").value;
 
+const cardContainer = document.querySelector(".card-container");
+const bgSelect = document.querySelector(".bg-select").value;
+
 const card = document.querySelector("#card");
 
 const cardName = document.querySelector(".pkm-name");
@@ -101,10 +104,16 @@ function changeCard() {
 
 }
 
+function bgChange() {
+
+    cardContainer.style.backgroundColor = bgSelect;
+
+}
+
 function handleForm(event) {
     event.preventDefault();
 }
 
-
+bgSelect.addEventListener('change', bgChange);
 form.addEventListener('submit', handleForm);
-form.addEventListener("submit", changeCard)
+form.addEventListener("submit", changeCard);
