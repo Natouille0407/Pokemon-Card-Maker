@@ -114,6 +114,5 @@ function handleForm(event) {
     event.preventDefault();
 }
 
-bgSelect.addEventListener('change', bgChange);
 form.addEventListener('submit', handleForm);
 form.addEventListener("submit", changeCard);
